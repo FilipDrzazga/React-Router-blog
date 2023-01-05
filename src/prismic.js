@@ -1,6 +1,5 @@
 import * as prismic from '@prismicio/client'
 
-// Fill in your repository name
 export const repositoryName = 'euro-blog';
 
 export const client = prismic.createClient(repositoryName, {
@@ -8,7 +7,7 @@ export const client = prismic.createClient(repositoryName, {
   routes: [
     {
       type: 'header',
-      path: '/',
+      path: '/countries',
     },
   ],
 });
