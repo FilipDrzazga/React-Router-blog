@@ -11,7 +11,6 @@ module.exports = {
             path: path.resolve(__dirname, 'build'),
             filename: 'app.[contenthash].js',
             clean: true,
-            publicPath: '/'
         },
         devServer: {
             historyApiFallback: true,
