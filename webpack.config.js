@@ -2,15 +2,11 @@ const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = function(env = {}) {
+module.exports = {
 
-    const {production: isProd = false} = env;
-
-    return  {
         entry: './src/app.js',
-        mode: isProd ? 'production' : 'development',
-        devtool: isProd ?
-            false : 'source-map',
+        mode: 'development',
+        devtool: 'source-map',
         output: {
             path: path.resolve(__dirname, 'build'),
             filename: 'app.[contenthash].js',
@@ -50,4 +46,3 @@ module.exports = function(env = {}) {
             })
         ]
     }
-}
