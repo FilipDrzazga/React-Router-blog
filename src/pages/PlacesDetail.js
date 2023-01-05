@@ -7,8 +7,6 @@ const PlacesDetail = () => {
 
     const param = useParams();
     const [document] = usePrismicDocumentByUID('town_post', param.name);
-    console.log(document,'ok');
-
 
     return (
         <>
