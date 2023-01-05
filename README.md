@@ -6,6 +6,7 @@
 The challenge was to create a website that mimics a blog. The content had to be from [headless CMS](https://prismic.io/) and coded with React Router.
 Pages had to be paginated with a limit of 4 posts per page.
 
+
 ## Installation:dvd:
 
 The project uses node and npm. To run the app on your machine you should install all dependencies.
@@ -26,7 +27,10 @@ npm run start
 * Webpack
 * Unsplash
 
+
 ## Live:tv:
+
+<https://filipdrzazga.github.io/React-Router-blog/>
 
 
 ## Feel free to contact me:thought_balloon:
